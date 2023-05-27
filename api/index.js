@@ -23,6 +23,6 @@ const { conn } = require('./src/db.js');
 // Syncing all the models at once.
 conn.sync({ force: true }).then(() => { //pasar el force: true a alter true,para que los datos en la BD queden permanentes
   server.listen(3001, () => {
-    console.log('Server listening at 3001'); // eslint-disable-line no-console
+    console.log('Server listening at port 3001'); // eslint-disable-line no-console
   });
 });
