@@ -1,0 +1,8 @@
+.container {
+    border: 0.1rem solid black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    gap: 1em;
+}
